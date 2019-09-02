@@ -7,21 +7,24 @@ Implement the  perfect routing for the beginner.
 `npm i routing-handler --save`
 
 Then...
+
 ...
+
 import {HandleRoutes} from "HandleRoutes";
 
 <Suspense fallback={<div>Loading....</div>}>
-                {
-                    HandleRoutes(
-                    authenticated,
-                        ls.get('token'),
-                    Main,
-                    Auth,
-                    privateRoutes,
-                    authRoutes,
-                    '/dashboard',
-                    '/login')
-                }
+
+    {
+        HandleRoutes(
+        authenticated,
+            ls.get('token'),
+        Main,
+        Auth,
+        privateRoutes,
+        authRoutes,
+        '/dashboard',
+        '/login')
+    }
 </Suspense>
 ...
 
