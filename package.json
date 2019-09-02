@@ -2,6 +2,10 @@
   "name": "react-router-handler",
   "version": "0.1.0",
   "private": true,
+   "repository": {
+    "type": "git",
+    "url": "https://github.com/sumitsharma11/routing-handler"
+  },
   "dependencies": {
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
