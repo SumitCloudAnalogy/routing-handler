@@ -10,7 +10,7 @@ Then...
 
 ...
 
-import {HandleRoutes} from "HandleRoutes";
+import {HandleRoutes} from "routing-handler";
 
 <Suspense fallback={<div>Loading....</div>}>
 
